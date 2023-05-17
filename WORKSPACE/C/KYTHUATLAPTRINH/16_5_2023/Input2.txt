@@ -1,0 +1,17 @@
+4
+1001
+Nguyen Van Hu
+A
+23000
+1002
+Nguyen Phuong Nam
+B
+50000
+1003
+Nguyen Trong Khaus
+C
+17482
+1004
+Tran Sinh Cai
+D
+5000

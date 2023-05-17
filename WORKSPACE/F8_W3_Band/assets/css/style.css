@@ -1,0 +1,85 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#nav {
+
+}
+
+#nav > li {
+    display: inline-block; /* xếp các phần tử theo chiều ngang */
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    text-decoration: none; /* điều chỉnh gạch chân chữ */
+    line-height: 46px;  /* căn giữa chữ */
+    padding: 0 24px; 
+    display: block;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav {
+    display: none ; /* display: none; làm cho menu biến mất */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px; /* chiều cao giữa các dòng */
+}
+
+#slider {
+    min-height: 500px;
+    background-color: rgb(142, 103, 45);
+     
+}
+#content {
+
+}
+#footer {
+
+}

@@ -1,0 +1,46 @@
+
+.box1 a:hover{
+    color: red;
+}
+.box2 a:hover{
+    color: blue;
+}
+.box3 a:hover{
+    color: white;
+}
+
+h2{
+    color: brown;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    padding: 16px;
+    margin: 2px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color:rgb(216, 207, 207);
+    
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin: 2px;
+    border: 2px solid #333;
+    background-color:rgb(192, 59, 205);
+    border-radius: 16px;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin: 2px;
+    border: 2px solid #333;
+    background-color:rgb(210, 25, 25);
+    border-radius: 16px;
+}

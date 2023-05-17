@@ -1,0 +1,1 @@
+docFile("utc.txt", hr, min, n);

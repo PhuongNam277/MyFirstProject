@@ -1,0 +1,1 @@
+printf("\nSo xuat hien nhieu nhat trong day la so %d", result);

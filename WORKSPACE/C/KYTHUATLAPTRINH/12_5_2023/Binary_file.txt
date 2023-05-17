@@ -1,0 +1,7 @@
+- Khai báo con trỏ tệp FILR *f;
+- Mở tệp để nhập dl (rb), xuất dl(wb)
+	f = fopen("sd", "rb);
+- Thực hiện lệnh đọc (ghi) dl
+	fread(địa chỉ của biến, sizeof(kiểu_DL), số pt, f);
+	fwrite(địa chỉ của biến, sizeof(kiểu_DL), số pt, f);
+- Đóng : fclose(f);
